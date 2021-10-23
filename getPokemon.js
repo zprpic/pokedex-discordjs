@@ -7,7 +7,6 @@ module.exports = async function getPokemon(name) {
     );
     return response;
   } catch (error) {
-    console.log(error);
     return error;
   }
 };
